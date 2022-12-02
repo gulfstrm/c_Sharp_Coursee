@@ -1,14 +1,16 @@
 ﻿// Напишите программу, которая на вход принимает два числа и выдает
-// , какое число большее , а каое меньшее.
-Console.WriteLine("Введите число 1 ");
-int num1 = int.Parse(Console.ReadLine());
+// , какое число большее , а какое меньшее.
 
-Console.WriteLine("Введите число 2");
-int num2 = int.Parse(Console.ReadLine());
+Console.Write("Введите число");
 
-if(num1>num2)
+int a = Convert.ToInt32(Console.ReadLine());
+
+int b = Convert.ToInt32(Console.ReadLine());
+
+
+if(a>b)
 {
-    Console.WriteLine("max = num1");
+      Console.WriteLine(a);
 }
 else
-Console.WriteLine("max = num2");
+Console.WriteLine(b);
