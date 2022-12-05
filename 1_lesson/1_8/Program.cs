@@ -2,11 +2,10 @@
 //  а на выходе показывает все четные числа от 1 до N.
 Console.WriteLine("Введите число  ");
 
-int a = Convert.ToInt32(Console.ReadLine());
+int n = Convert.ToInt32(Console.ReadLine());
 
-if(a % 2 == 0)
+for (int i = 1; i <= n; i++)
 
-    Console.WriteLine("Четное");
+if(i % 2 == 0)
 
-else
-    Console.WriteLine("нечетное");
+    Console.WriteLine(i+" ");
